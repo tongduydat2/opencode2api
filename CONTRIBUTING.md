@@ -1,6 +1,6 @@
-# Contributing to opencode2claude
+# Contributing to opencode2api
 
-Thank you for your interest in contributing to opencode2claude!
+Thank you for your interest in contributing to opencode2api!
 
 ## Code of Conduct
 
@@ -65,8 +65,8 @@ docs: update configuration documentation
 
 ```bash
 # Clone and install
-git clone https://github.com/tongduydat2/opencode2claude.git
-cd opencode2claude
+git clone https://github.com/tongduydat2/opencode2api.git
+cd opencode2api
 pip install -r requirements.txt
 
 # Run tests

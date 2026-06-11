@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 opencode2claude Contributors
+Copyright (c) 2026 opencode2api Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

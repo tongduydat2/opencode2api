@@ -30,8 +30,8 @@
 
 | Step | Command |
 |:-----|:-----|
-| 1. Clone repository | `git clone https://github.com/tongduydat2/opencode2claude.git` |
-| 2. Enter folder | `cd opencode2claude` |
+| 1. Clone repository | `git clone https://github.com/tongduydat2/opencode2api.git` |
+| 2. Enter folder | `cd opencode2api` |
 | 3. Copy settings template | `cp .env.example .env` |
 | 4. Start services | `docker compose up -d` |
 
@@ -39,8 +39,8 @@
 
 | Step | Command |
 |:-----|:-----|
-| 1. Clone repository | `git clone https://github.com/tongduydat2/opencode2claude.git` |
-| 2. Enter folder | `cd opencode2claude` |
+| 1. Clone repository | `git clone https://github.com/tongduydat2/opencode2api.git` |
+| 2. Enter folder | `cd opencode2api` |
 | 3. Install packages | `pip install -r requirements.txt` |
 | 4. Copy settings template | `cp .env.example .env` |
 | 5. Start servers | `bash ./run_python.sh` |

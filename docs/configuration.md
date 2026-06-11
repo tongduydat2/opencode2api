@@ -89,7 +89,7 @@
 
 ## 🛠️ External Tool Bridging
 
-opencode2claude supports virtualization of client-provided `tools`. This translates standard Claude `tools` request definitions into system prompt instructions, routing tool outputs back cleanly without registering items directly inside the OpenCode environment.
+opencode2api supports virtualization of client-provided `tools`. This translates standard Claude `tools` request definitions into system prompt instructions, routing tool outputs back cleanly without registering items directly inside the OpenCode environment.
 
 ### Supported Properties
 

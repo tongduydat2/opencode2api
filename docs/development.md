@@ -58,7 +58,7 @@ bash ./run_python.sh
 ## 📂 Project Structure
 
 ```
-opencode2claude/
+opencode2api/
 ├── python_src/            # Python FastAPI source code
 │   ├── __init__.py
 │   ├── config.py          # Settings parser using Pydantic Settings

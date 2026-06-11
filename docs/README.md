@@ -1,10 +1,10 @@
-# opencode2claude Documentation Center
+# opencode2api Documentation Center
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.5.0-blue" alt="Version">
 </p>
 
-> Welcome to the opencode2claude documentation.
+> Welcome to the opencode2api documentation.
 
 ---
 
@@ -24,5 +24,5 @@
 ## 🔗 Quick Links
 
 - 📄 [Main README](../README.md)
-- 🐙 [GitHub Repository](https://github.com/tongduydat2/opencode2claude)
-- 🐛 [Report Issues](https://github.com/tongduydat2/opencode2claude/issues)
+- 🐙 [GitHub Repository](https://github.com/tongduydat2/opencode2api)
+- 🐛 [Report Issues](https://github.com/tongduydat2/opencode2api/issues)

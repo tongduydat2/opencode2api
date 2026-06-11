@@ -2,7 +2,7 @@
 set -euo pipefail
 
 TEST_PORT="${TEST_PORT:-14096}"
-CONTAINER_NAME="opencode2claude-test-${TEST_PORT}"
+CONTAINER_NAME="opencode2api-test-${TEST_PORT}"
 INTERNAL_ALLOWED_TOOLS="${INTERNAL_ALLOWED_TOOLS:-web_fetch,filesystem}"
 TOOL_DISCOVERY_FIXTURE="${TOOL_DISCOVERY_FIXTURE:-web_fetch,filesystem,bash}"
 HEALTH_DETAILS_ENABLED="${HEALTH_DETAILS_ENABLED:-true}"
@@ -18,7 +18,7 @@ trap cleanup EXIT
 echo "--- Running Integration Tests ---"
 
 echo "Building Docker image..."
-docker build -t opencode2claude:test .
+docker build -t opencode2api:test .
 
 echo "Starting container on port ${TEST_PORT}..."
 cleanup
@@ -32,7 +32,7 @@ docker run -d --name "${CONTAINER_NAME}" \
     -e OPENCODE_HEALTH_DETAILS_REQUIRE_AUTH="${HEALTH_DETAILS_REQUIRE_AUTH}" \
     -e OPENCODE_METRICS_ENABLED="${METRICS_ENABLED}" \
     -e OPENCODE_METRICS_REQUIRE_AUTH="${METRICS_REQUIRE_AUTH}" \
-    opencode2claude:test
+    opencode2api:test
 
 echo "Waiting for service to be ready..."
 MAX_RETRIES=30

@@ -1,9 +1,9 @@
 services:
-  opencode2claude:
+  opencode2api:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: opencode2claude
+    container_name: opencode2api
     ports:
       - "${OPENCODE_PROXY_PORT:-10000}:${OPENCODE_PROXY_PORT:-10000}"
     environment:

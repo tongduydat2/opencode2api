@@ -11,8 +11,8 @@
 ### 1️⃣ Clone Project
 
 ```bash
-git clone https://github.com/tongduydat2/opencode2claude.git
-cd opencode2claude
+git clone https://github.com/tongduydat2/opencode2api.git
+cd opencode2api
 ```
 
 ### 2️⃣ Configure Environment
@@ -74,7 +74,7 @@ OPENCODE_PROXY_AUTO_CLEANUP_CONVERSATIONS=true
 ### Build Docker Image
 
 ```bash
-docker build -t opencode2claude .
+docker build -t opencode2api .
 ```
 
 ### Run Standalone Container
@@ -87,7 +87,7 @@ docker run -d \
   -e OPENCODE_SERVER_PASSWORD=your-password \
   -v opencode-data:/home/appuser/.local/share/opencode \
   -v opencode-config:/home/appuser/.config/opencode \
-  opencode2claude
+  opencode2api
 ```
 
 ---

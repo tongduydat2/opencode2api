@@ -1,4 +1,4 @@
-# opencode2claude
+# opencode2api
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.5.0-blue" alt="Version">
@@ -31,8 +31,8 @@ Convert your local [OpenCode](https://opencode.ai) runtime into a Claude-compati
 
 ```bash
 # 1. Clone and configure
-git clone https://github.com/tongduydat2/opencode2claude.git
-cd opencode2claude
+git clone https://github.com/tongduydat2/opencode2api.git
+cd opencode2api
 cp .env.example .env
 
 # 2. Edit .env and set your configuration
@@ -52,8 +52,8 @@ curl http://127.0.0.1:10000/health
 # Linux/macOS: curl -fsSL https://opencode.ai/install | bash
 
 # 2. Clone and run
-git clone https://github.com/tongduydat2/opencode2claude.git
-cd opencode2claude
+git clone https://github.com/tongduydat2/opencode2api.git
+cd opencode2api
 pip install -r requirements.txt
 cp .env.example .env
 bash ./run_python.sh

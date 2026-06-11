@@ -1,4 +1,4 @@
-"""Tests for the opencode2claude Python proxy (Claude /v1/messages format)."""
+"""Tests for the opencode2api Python proxy (Claude /v1/messages format)."""
 import json
 import pytest
 from unittest.mock import patch, AsyncMock, MagicMock

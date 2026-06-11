@@ -110,4 +110,4 @@ OPENCODE_PROXY_DEBUG=true
 
 ## 🆘 Getting Help
 
-- 🐛 [Report Issues on GitHub](https://github.com/tongduydat2/opencode2claude/issues)
+- 🐛 [Report Issues on GitHub](https://github.com/tongduydat2/opencode2api/issues)

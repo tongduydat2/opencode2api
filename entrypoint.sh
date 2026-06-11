@@ -21,7 +21,7 @@ PROXY_PORT=${OPENCODE_PROXY_PORT:-10000}
 SERVER_PORT=${OPENCODE_SERVER_PORT:-10001}
 
 if [[ "$1" == "opencode" && "$2" == "serve" ]]; then
-    echo "Initializing opencode2claude (Server + Python Proxy)"
+    echo "Initializing opencode2api (Server + Python Proxy)"
     
     echo "Starting OpenCode Server on internal port ${SERVER_PORT}..."
     gosu appuser opencode serve --hostname 0.0.0.0 --port ${SERVER_PORT} &
